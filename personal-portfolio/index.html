@@ -8,12 +8,15 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
-<body>
+<body class="flex">
     <div class="wrapper">
         <header>
             <nav>
-                <a>Your Name</a>
-                <ul>
+                <div class="profile flex">
+                    <img src="https://assets.roadmap.sh/avatars/6491ea5494a0234a65df0127_1687284308832" alt="">
+                    <a>Your Name</a>
+                </div>
+                <ul class="flex">
                     <li><a href="#">Home</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="./articles.html">Articles</a></li>
@@ -21,21 +24,21 @@
                 </ul>
             </nav>
         </header>
-        <section class="hero">
+        <section class="hero flex">
             <h1>Frontend Developer</h1>
             <p>html only with proper layout no styling</p>
         </section>
         <main>
-            <section>
-                <div>
-                    <h3 id="projects">Projects</h3>
+            <section class="info flex">
+                <div class="info-projects">
+                    <h3 id="info-title-projects">Projects</h3>
                     <p>HTML Only Portfolio</p>
                     <p>Calculator</p>
                     <p>Quiz app</p>
                     <p>Countdown Timer</p>
                     <p>Product Upcoming Page</p>
                 </div>
-                <div>
+                <div class="info-work-experience">
                     <div>
                         <h3>Work Experience</h3>
                         <p>roadmap.sh</p>
@@ -53,7 +56,7 @@
                         <a href="">Visit my profile</a>
                     </div>
                 </div>
-                <div>
+                <div class="info-education">
                     <h3>Education</h3>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus, iste.</p>
                     <p>Course I took:</p>
@@ -68,26 +71,23 @@
                     </ul>
                 </div>
             </section>
-            <section>
+            <section class="article-content">
                 <h3>Reviews from my Teachers</h3>
                 <div class="articles">
                     <article>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores corrupti, ex accusantium
-                            maiores
+                        <p>Lorem ipsum dolor sit amet consectetur adipi
                             natus quidem?</p>
                         <p>Lorem, ipsum.</p>
                         <p>Lorem, ipsum dolor.</p>
                     </article>
                     <article>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores corrupti, ex accusantium
-                            maiores
+                        <p>Lorem ipsum dolor sit amet consectetur adipi
                             natus quidem?</p>
                         <p>Lorem, ipsum.</p>
                         <p>Lorem, ipsum dolor.</p>
                     </article>
                     <article>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores corrupti, ex accusantium
-                            maiores
+                        <p>Lorem ipsum dolor sit amet consectetur adipi
                             natus quidem?</p>
                         <p>Lorem, ipsum.</p>
                         <p>Lorem, ipsum dolor.</p>
@@ -95,7 +95,7 @@
                 </div>
             </section>
         </main>
-        <footer>
+        <footer class="flex">
             All rights reserved 2025.
         </footer>
     </div>

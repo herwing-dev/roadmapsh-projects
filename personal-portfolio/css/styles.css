@@ -1,0 +1,90 @@
+:root {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 320px) {
+
+    .flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wrapper {
+        max-inline-size: 80dvw;
+    }
+
+    nav ul {
+        margin-block-end: 0;
+        margin-block-start: .5rem;
+        list-style: none;
+        padding: 0;
+        gap: 1rem;
+    }
+
+    .profile {
+        row-gap: 1rem;
+        flex-direction: column;
+    }
+
+    p {
+    margin-block: .5rem;
+    }
+
+    a {
+        display: block;
+        text-align: center;
+    }
+
+    img {
+        block-size: 3.125rem;
+        inline-size: 3.125rem;
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero h1 {
+        margin-block-end: 0;
+    }
+
+    .info {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .info-work-experience,
+    .info-work-experience a {
+        text-align: start;
+        text-decoration: none;
+    }
+
+    .info-education p,
+    li {
+        text-align: start;
+    }
+
+    .info-education ul {
+        list-style: none;
+        padding-inline-start: 0;
+        list-style-position: inside;
+    }
+
+    .info-education li::before {
+        content: "- ";
+    }
+
+    article {
+        border: 1px solid black;
+        padding: 1rem;
+        border-radius: 1rem;
+        margin-block: 1rem;
+    }
+
+    article p {
+        margin: .25rem;
+    }
+
+}
