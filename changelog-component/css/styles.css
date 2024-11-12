@@ -1,0 +1,66 @@
+body {
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  border: 3px solid black;
+  border-radius: 1rem;
+  max-inline-size: 35vw;
+  padding: 2rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-block-end: 3rem;
+}
+
+.container-content-title {
+  border-inline-start: 2px solid black;
+}
+
+.date {
+  flex-grow: 1;
+  padding-inline-end: 1.5rem;
+}
+
+p, .date {
+  color: gray;
+}
+
+.title, .date {
+  padding-block: 1.5rem;
+}
+
+.title {
+  position: relative;
+  flex-grow: auto;
+  padding-inline-start: 1rem;
+}
+
+.title::before {
+  box-sizing: border-box;
+  position: absolute;
+  content: "";
+  display: block;
+  inline-size: 1rem;
+  block-size: 1rem;
+  background-color: black;
+  inset-inline-start: -0.5625rem;
+  border-radius: 50%;
+}
+
+button {
+  border-radius: .75rem;
+  font-size: .8rem;
+  font-family: "Roboto";
+  font-weight: bold;
+  padding: 1rem;
+  border: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
