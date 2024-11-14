@@ -5,17 +5,18 @@ html {
 
 .wrapper {
   margin: 0 auto;
-  max-inline-size: 90dvw;
+  max-inline-size: 75dvw;
 }
 
 .content {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .container-1 {
   flex-grow: 1;
-  width: 50%;
+  inline-size: 45%;
 }
 
 .container-1 .container-testimonial {
@@ -39,21 +40,22 @@ html {
   background-color: rgb(37, 36, 36);
 }
 
-.container-1 .container-profile {
+.container-1 .container-profile, .container-2 .container-profile {
   margin-block-start: 1rem;
   display: flex;
   padding-inline: .5rem;
   gap: 0.5rem;
   align-items: center;
+  padding-block-end: .5rem;
 }
 
-.container-1 img {
+.container-1 img, .container-2  img {
   border-radius: 100%;
   inline-size: 3.75rem;
   block-size: 3.75rem;
 }
 
-.container-profile-text p{
+.container-profile-text p {
   font-size: .75rem;
   margin: 0.25rem 0;
 }
@@ -62,3 +64,20 @@ html {
   font-size: unset;
   font-weight: bold;
 }
+
+
+.container-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-grow: 1;
+  inline-size: 45%;
+  border: 1px solid rgb(37, 36, 36);
+  border-radius: 1rem;
+}
+
+.container-2 .container-testimonial {
+  padding-inline: 1rem;
+  line-height: 1.5;
+}
+
