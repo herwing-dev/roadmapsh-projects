@@ -55,15 +55,19 @@ span {
 }
 
 .container-days {
-  border:2px solid black;
   border-block-start: 0;
   display: flex;
   text-align: center;
-  justify-content: space-between;
   flex-wrap: wrap;
 }
 
 .container-days span {
-  border-inline-end: 1px solid black;
-  border-block-end: 1px solid black;
+  flex-grow: 1;
+  box-sizing: border-box;
+  border-inline-start: 2px solid black;
+  border-block-end: 2px solid black;
+}
+
+.container-days span:nth-of-type(7n) {
+  border-inline-end: 2px solid black;
 }
