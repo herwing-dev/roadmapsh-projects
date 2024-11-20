@@ -12,4 +12,6 @@ Personal Portfolio: https://roadmap.sh/projects/portfolio-website<br/> Repositor
 
 Changelog Component: https://roadmap.sh/projects/changelog-component<br/> Repository: [Changelog Component](https://github.com/herwingx-dev/roadmapsh/blob/main/changelog-component/index.html)
 
-Changelog Component: https://roadmap.sh/projects/testimonial-cards<br/> Repository: [Testimonial Cards](https://github.com/herwingx-dev/roadmapsh/blob/main/testimonial-cards/index.html)
+Testimonial Cards: https://roadmap.sh/projects/testimonial-cards<br/> Repository: [Testimonial Cards](https://github.com/herwingx-dev/roadmapsh/blob/main/testimonial-cards/index.html)
+
+Datepicker UI: https://roadmap.sh/projects/datepicker-ui<br/> Repository: [Datepicker UI](https://github.com/herwingx-dev/roadmapsh/blob/main/datepicker-ui/index.html)
