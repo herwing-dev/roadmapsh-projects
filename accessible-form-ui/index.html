@@ -15,23 +15,25 @@
 </head>
 
 <body>
-  <main>
-    <form action="">
-      <label>
-        <input type="text">
+    <form class="form" action="">
+      <label for="name">
+        Full Name
+        <input id="name" type="text" required placeholder="What should be call you?">
       </label>
-      <label>
-        <input type="text">
+      <label for="email">
+        Email
+        <input id="email" type="email" required placeholder="email@email.com">
       </label>
-      <label>
-        <input type="text">
+      <label for="password">
+        Enter Password
+        <input id="password" type="password" required placeholder="xxxxxxxx">
       </label>
-      <label>
-        <input type="text">
+      <label for="password">
+        Confirm Password
+        <input id="confirmPassword" type="password" required placeholder="xxxxxxxx">
       </label>
-      <input type="submit">
+      <input class="submit" type="submit" value="Update Profile">
     </form>
-  </main>
 </body>
 
 </html>
