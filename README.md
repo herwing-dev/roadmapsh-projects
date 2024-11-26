@@ -17,3 +17,5 @@ Testimonial Cards: https://roadmap.sh/projects/testimonial-cards<br/> Repository
 Datepicker UI: https://roadmap.sh/projects/datepicker-ui<br/> Repository: [Datepicker UI](https://github.com/herwingx-dev/roadmapsh/blob/main/datepicker-ui/index.html)
 
 Accessible Form UI: https://roadmap.sh/projects/accessible-form-ui<br/> Repository: [Accessible Form UI](https://github.com/herwingx-dev/roadmapsh/blob/main/accessible-form-ui/index.html)
+
+Image grid layout: https://roadmap.sh/projects/image-grid<br/> Repository: [Image grid layout](https://github.com/herwingx-dev/roadmapsh/blob/main/image-grid-layout/index.html)
