@@ -1,4 +1,4 @@
-# Frontend Projects from Roadmap.sh
+# Projects from Roadmap.sh
 
 Welcome to my collection of front-end projects! These projects were built by following the [front-end developer path from roadmap.sh](https://roadmap.sh/). Each project aims to help me improve my front-end skills, from basic HTML websites to complex UI components.
 
